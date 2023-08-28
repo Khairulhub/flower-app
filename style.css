@@ -44,6 +44,16 @@ body {
   .align-center{
     align-items: center;
   }
+  .align-content{
+    display: flex;
+    justify-content: center;
+
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    gap: 24px;
+    
+  }
   .gap{
     gap: 24px;
   }
@@ -97,6 +107,9 @@ line-height: 35px;
    
   .mt-48{
     margin-top: 48px;
+  }
+  .mb-48{
+    margin-bottom: 48px ;
   }
   
   /* Additional styles for other elements in the content section */
@@ -230,4 +243,15 @@ height: 88px;
         .box-5{
             width: 270px;
             height: 396px;
+        }
+
+
+
+        /*  */
+
+        .bg-img{
+            border-radius: 8px;
+        background: url('./Flower\ Asset/Rectangle 9.png'), lightgray  no-repeat;
+        padding: 90px 0;
+        /* margin: 122px 0; */
         }
