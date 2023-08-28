@@ -44,6 +44,9 @@ body {
   .align-center{
     align-items: center;
   }
+  .gap{
+    gap: 24px;
+  }
 
 
 
@@ -57,7 +60,7 @@ line-height: normal;
 
   .h2{
     color: #272727;
-text-align: center;
+
 font-family: Lato;
 font-size: 40px;
 font-style: normal;
@@ -71,6 +74,22 @@ line-height: normal;
 font-style: normal;
 font-weight: 400;
 line-height: 30px;
+  }
+  .h5{
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+font-family: Lato;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 35px; 
+  }
+  .center{
+    text-align: center;
+  }
+   
+  .mt-48{
+    margin-top: 48px;
   }
   
   /* Additional styles for other elements in the content section */
@@ -97,3 +116,95 @@ line-height: 30px;
   
   }
   
+
+
+  /* main part */
+  .box1{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+position: relative;
+  }
+  .box2{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(5, 151, 160, 0.15);
+position: relative;
+
+
+  }
+  .box3{
+    width: 464px;
+height: 538px;
+border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+position: relative;
+  }
+
+  .box1 > img{
+position: absolute;
+bottom: 0;
+right: 0;
+left: 0;
+width: 310px;
+height: 428px;
+padding: 0 10px;
+  }
+  .box1 > a{
+    position: absolute;
+    bottom: -32px;
+    right: 0;
+    left: 0;
+    color: #272727;
+      }
+  .box2 > img{
+position: absolute;
+bottom: 0;
+right: 0;
+left: 0;
+width: 310px;
+height: 428px;
+padding: 0 10px;
+  }
+
+  .box2 > a{
+    position: absolute;
+    bottom: -32px;
+    right: 0;
+    left: 0;
+    color: #272727;
+      }
+
+
+  .box3 > img{
+position: absolute;
+bottom: 0;
+right: 0;
+left: 0;
+width: 310px;
+height: 428px;
+padding: 0 10px;
+  }
+
+  .box3 > a{
+    position: absolute;
+    bottom: -32px;
+    right: 0;
+    left: 0;
+    color: #272727;
+      }
+
+
+
+      /* oftional */
+      .oftional{
+        margin-top: 128px;
+        background: rgba(39, 39, 39, 0.05);
+        padding: 86px 100px;
+      }
+      .oftional img{
+        width: 88px;
+height: 88px;
+      }
