@@ -47,6 +47,9 @@ body {
   .gap{
     gap: 24px;
   }
+  .gap-186{
+    gap: 186px;
+  }
 
 
 
@@ -70,6 +73,7 @@ line-height: normal;
 
 
   .p{
+    color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -98,6 +102,9 @@ line-height: 35px;
     background: rgba(229, 84, 115, 0.10);
 
   }
+    .text-secondary{
+        color: #E55473;
+    }
   .btn-primary{
     border-radius: 8px;
     background: #E55473;
@@ -208,3 +215,10 @@ padding: 0 10px;
         width: 88px;
 height: 88px;
       }
+
+      /* hot deal */
+        .hot-deal{
+            margin-top: 128px;
+            
+            padding: 86px 0;
+        }
